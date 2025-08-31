@@ -142,7 +142,7 @@ struct ContentView: View {
            
            // Prepare the request body
            let body: [String: Any] = [
-            "system": "You are an ai assistant designed to enhance productivity in any way possible. Talk in a nice way. You can also help with system tasks. Here are some examples: user ask to turn on wifi return {'wifi':'off}, weather at some location return {'weather':'location'}, write a note return {'note':'contents'}.",
+            "system": "system message",
                "model": "llama3.2",
                "prompt": prompt,
                "stream": false
